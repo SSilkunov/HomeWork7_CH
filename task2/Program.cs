@@ -15,5 +15,5 @@ Console.WriteLine("Input first number:");
 int n = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Input second number:");
 int m = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Result: " + AckermanFunction(n, m));
+Console.WriteLine($"A({n},{m})= " + AckermanFunction(n, m));
 
